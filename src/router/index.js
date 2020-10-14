@@ -5,6 +5,7 @@ import HelloWorld from '@/components/HelloWorld'
 import ShowText from '@/components/ShowText'
 import ShowHTML from '@/components/ShowHTML'
 import JSExpressionTest from '@/components/JSExpressionTest'
+import Robot from '@/components/Robot'
 
 Vue.use(Router)
 Vue.use(VueResource)
@@ -37,6 +38,10 @@ export default new Router({
     {
       path: '/JSExpression',
       component: JSExpressionTest
+    },
+    {
+      path: '/Robot',
+      component: Robot
     }
   ]
 })
